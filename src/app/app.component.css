@@ -4,6 +4,15 @@
   border: 1px dashed #ccc;
   border-radius: 10px;
 }
+
+.btn-display {
+  color: #283593;
+}
+
+.btn-not-display {
+  display: none;
+}
+
 /* .card-container:hover {
   border: 2px solid #3a61b7;
   border-radius: 10px;
