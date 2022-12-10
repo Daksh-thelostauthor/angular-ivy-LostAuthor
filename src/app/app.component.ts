@@ -7,7 +7,7 @@ import { Component, VERSION } from '@angular/core';
 })
 export class AppComponent {
   toggle = true;
-  names;
+  public names;
   public holiday = [
     {
       holiday_name: 'Alex',
