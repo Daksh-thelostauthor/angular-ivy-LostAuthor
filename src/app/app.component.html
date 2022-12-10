@@ -1,0 +1,22 @@
+<div class="row">
+  <div class="col-md-4" *ngFor="let i of holiday">
+    <div
+      class="card-container"
+      [ngClass]="
+      names == i.holiday_name ? 'card-selected':
+      'card-deselected'
+    "
+      (click)="holidaySelected(i)"
+    >
+      <div class="row"     >
+        <div class="col-md-9">
+          <div class="card-title">{{ i.holiday_name }} &nbsp;</div>
+          <div class="card-holiday-type">{{ i.Status }}</div>
+        </div>
+        <div class="col-md-3">
+          <div class="card-days">{{ i.Number_Of_Days }}<span>Days</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

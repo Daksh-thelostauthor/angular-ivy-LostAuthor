@@ -1,0 +1,58 @@
+.card-container {
+  margin: 10px;
+  padding: 15px;
+  border: 1px dashed #ccc;
+  border-radius: 10px;
+}
+/* .card-container:hover {
+  border: 2px solid #3a61b7;
+  border-radius: 10px;
+  cursor: pointer;
+} */
+.card-selected {
+  border: 2px solid #283593;
+}
+.card-deselected {
+  border: 2px solid #fff;
+}
+
+.card-title {
+  font-size: 140%;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+  color: #3a61b7;
+  padding-bottom: 3px;
+  margin-bottom: 3px;
+}
+.card-holiday-type {
+  text-transform: uppercase;
+  color: #ca8d1b;
+  font-size: 80%;
+}
+.card-days {
+  padding-top: 5px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 120%;
+}
+.card-days span {
+  display: block;
+  text-align: center;
+  font-size: 80%;
+  padding-bottom: 5px;
+}
+.card-from-date {
+  display: inline;
+}
+@media only screen and (max-width: 768px) {
+  .card-from-date {
+    display: table;
+    width: 100%;
+  }
+}
+.margin {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
